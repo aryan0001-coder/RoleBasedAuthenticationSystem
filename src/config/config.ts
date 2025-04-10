@@ -3,7 +3,7 @@ dotenv.config();
 
 export const config = {
   port: process.env.PORT || 3000,
-  mongoUri: process.env.MONGO_URI || 'MONGO_URI=mongodb+srv://aryan:aryan1234@cluster0.u2p1f.mongodb.net/Assignment?retryWrites=true&w=majority&appName=Cluster0',
+  mongoUri: process.env.MONGO_URI,
   jwtSecret: process.env.JWT_SECRET || 'aryan-123',
   superAdmin: {
     email: process.env.SUPER_ADMIN_EMAIL || 'admin@example.com',
