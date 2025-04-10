@@ -1,0 +1,33 @@
+{
+  "name": "rolebasedauthentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon -e ts --exec ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@hapi/jwt": "^3.2.0",
+    "@types/bcryptjs": "^3.0.0",
+    "@types/hapi__jwt": "^2.0.5",
+    "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
